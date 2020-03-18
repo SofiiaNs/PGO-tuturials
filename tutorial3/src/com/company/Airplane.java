@@ -11,18 +11,18 @@ public class Airplane {
         this.Seats = Seats;
 
     }
-    public int Number() {
+    public int getNumber() {
         return this.Seats ;
     }
 
-    public void Seats(int Seats) {
+    public void setNumberOfSeats(int Seats) {
         this.Seats = Seats;
     }
 
-    public String MyBrand() {
+    public String getBrand() {
         return this.Brand;
     }
-    public void Brand( String Brand){this.Brand = Brand;}
+    public void setBrand( String Brand){this.Brand = Brand;}
 
 
 }

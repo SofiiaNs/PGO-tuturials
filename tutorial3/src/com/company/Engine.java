@@ -11,19 +11,19 @@ public class Engine {
 
     }
 
-    public double Power() {
+    public double getPower() {
         return this.EnginePower;
     }
 
-    public void Power(double Power) {
+    public void setPower(double Power) {
         this.EnginePower = EnginePower;
     }
 
-    public int ProductionYear() {
+    public int getProductionYear() {
         return this.EngineProductionYear;
     }
 
-    public void ProductionYear(int EngineProductionYear) {
+    public void setProductionYear(int EngineProductionYear) {
         this.EngineProductionYear = EngineProductionYear;
     }
 
@@ -39,7 +39,7 @@ public class Engine {
             return  false;
         }
     }
-    public boolean Eco (){ return this.EngineIsEcological; }
+    public boolean getEcological (){ return this.EngineIsEcological; }
 
 
 
